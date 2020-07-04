@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  background-color: royalblue;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .section {
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    display: flex;
+  }
+}
+
+.icon{
+  font-size: 35px;
+  margin: 20px;
+}

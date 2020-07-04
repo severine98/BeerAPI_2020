@@ -1,0 +1,15 @@
+.links{
+  margin-right: 20px;
+
+  a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+    &:hover{
+      text-decoration: unset;
+      color: black;
+    }
+  }
+}

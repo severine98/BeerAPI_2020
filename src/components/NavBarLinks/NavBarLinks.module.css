@@ -1,0 +1,16 @@
+.links {
+  margin-right: 20px;
+}
+
+.links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.links a:hover {
+  text-decoration: unset;
+  color: black;
+}
+/*# sourceMappingURL=NavBarLinks.module.css.map */

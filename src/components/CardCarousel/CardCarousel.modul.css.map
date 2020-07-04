@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACP,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "CardCarousel.modul.scss"
+    ],
+    "names": [],
+    "file": "CardCarousel.modul.css"
+}
