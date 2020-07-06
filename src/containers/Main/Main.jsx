@@ -12,7 +12,7 @@ class Main extends Component {
           <h2>
             I built this mini project in order to practice using data provided
             from various APIs. It also allowed me to have a first go at React
-            and using multiple packages.
+            and using installing packages.
           </h2>
           <br></br>
           <p>
