@@ -1,20 +1,28 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import styles from "./CardCarousel.module.scss";
 import Carousel from "react-elastic-carousel";
-import Card from "../Card"
 
 class CardCarousel extends Component {
-  state = {  }
-  render() { 
+
+  render() {
+    const getCard = (card, index) => {
+      return (
+        <article className={styles.card} key={index}>
+          <img src={card.url} alt="pic" />
+        </article>
+      );
+    };
     return (
-    <>
-     <Carousel className={styles.carousel}>
-       < Card data={this.props.data}/>
-       < Card data={this.props.data}/>
-       < Card data={this.props.data}/>
-      </Carousel>
-    </>)
+      <>
+        <Carousel className={styles.carousel} itemsToShow={1}>
+        {this.props.data.map(getCard)}
+        {this.props.data.map(getCard)}
+        {this.props.data.map(getCard)}
+          {/* <Card data={this.props.data} /> */}
+        </Carousel>
+      </>
+    );
   }
 }
- 
+
 export default CardCarousel;
