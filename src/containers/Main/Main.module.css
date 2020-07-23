@@ -21,16 +21,33 @@
   width: 40%;
   padding: 10px;
   background-color: #8fbbcc;
+  text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+  .main div.text {
+    font-size: 1em;
+  }
 }
 
 .main div.text h1 {
-  text-align: center;
   font-size: 40px;
 }
 
+@media screen and (max-width: 420px) {
+  .main div.text h1 {
+    font-size: 1.5em;
+  }
+}
+
 .main div.text p {
-  text-align: center;
   font-weight: bold;
   font-size: 25px;
+}
+
+@media screen and (max-width: 700px) {
+  .main div.text {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=Main.module.css.map */

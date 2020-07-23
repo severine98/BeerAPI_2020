@@ -25,6 +25,12 @@
   height: 50%;
 }
 
+@media screen and (max-width: 420px) {
+  .skullPage section.carousel {
+    width: 90%;
+  }
+}
+
 .skullPage h3 {
   margin-bottom: 30px;
   font-size: 1.5em;

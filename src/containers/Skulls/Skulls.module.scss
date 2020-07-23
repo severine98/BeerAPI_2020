@@ -13,6 +13,9 @@
   section.carousel {
     width: 70%;
     height: 50%;
+    @media screen and (max-width: 420px) {
+      width: 90%;
+    }
   }
 
   h3 {
