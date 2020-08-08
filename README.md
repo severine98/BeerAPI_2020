@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Beer anyone? 
+An app where the user is able to browse through Brewdog beers. Ability to enter a search term that dynamically renders the corresponding beers on to the page. The user can choose to sort the beers by ABV range, PH level or IBU.
+
+## Purpose of this project
+This project was created using ReactJS. 
+A great opportunity to practice fetching data from an external API and redenring the desired information onto the page. The dynamic search term allowed me to develop  understanding of state and props, as well as mapping through data in order to add the sorting functionality. 
 
 ## Available Scripts
 
